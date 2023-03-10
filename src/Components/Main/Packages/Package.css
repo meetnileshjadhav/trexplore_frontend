@@ -9,3 +9,18 @@
     margin-top: 20px;
 }
 
+.pack-short-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+.pack-short-subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+
+

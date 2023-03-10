@@ -1,4 +1,51 @@
-.navbar{
-    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.7),rgba(0, 0, 0, 0.9));
-    color: white;
+.navbar {
+    background-image: linear-gradient(rgba(226, 249, 20, 0.5), rgba(29, 205, 241, 0.8));
+    /* background-image: linear-gradient(to right,rgba(255, 0, 0, 0.7),rgba(0, 0, 0, 0.9)); */
+    color: black;
+}
+
+.nav-link-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-link-text::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.nav-link-text::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    /* margin: auto; */
+    display: block;
+    transition: 0.5s ease;
+}
+
+.nav-link-text:hover::after {
+    width: 100%;
+}
+
+.nav-link-text:hover::before {
+    width: 100%;
+}
+
+.header-username {
+    color: red;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.head-uname-pos {
+    font-weight: 500;
+    margin-top: 50px;
 }

@@ -1,0 +1,8 @@
+.package-hero{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    letter-spacing: 1px;
+}
