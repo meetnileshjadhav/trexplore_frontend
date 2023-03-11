@@ -20,7 +20,18 @@
     display: block;
     transition: 0.5s ease;
 }
+.navbar-nav a{
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 0 12px !important;
+}
+.navbar {
+    background: #fff;
+}
 
+.navbar-collapse{
+    justify-content: space-between;
+}
 .nav-link-text::before {
     content: '';
     width: 0%;

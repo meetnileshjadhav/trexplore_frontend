@@ -39,7 +39,8 @@ const Header = () => {
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+       <div>
+       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <Link
               to="/"
@@ -92,11 +93,12 @@ const Header = () => {
               ADMIN
             </Link>
           </li>
+          </ul>
+       </div>
+       <div className="userprofile">
+       Hello <span className="header-username">{username ? username : "Guest"}</span>
+       </div>
 
-          <li class="nav-item head-uname-pos">
-            Hello <span className="header-username">{username ? username : "Guest"}</span>
-          </li>
-        </ul>
       </div>
     </nav>
   );

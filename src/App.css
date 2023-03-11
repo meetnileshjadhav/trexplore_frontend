@@ -1,3 +1,6 @@
+.App.container-fluid {
+  padding: 0;
+}
 .App {
   text-align: center;
 }
